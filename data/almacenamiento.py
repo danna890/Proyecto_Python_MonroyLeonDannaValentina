@@ -10,13 +10,13 @@ RUTAS = {
 def cargar_categoria(tipo: str):
     archivo = RUTAS.get(tipo)
     if archivo and os.path.exists(archivo):
-        with open(archivo, 'r', encoding='utf-8') as f:
+        with open(archivo, 'r') as f:
             return json.load(f)
     return []
 
 def guardar_categoria(tipo: str, datos: list):
     archivo = RUTAS.get(tipo)
-    with open(archivo, 'w', encoding='utf-8') as f:
+    with open(archivo, 'w') as f:
         json.dump(datos, f, ensure_ascii=False, indent=4)
 
 def cargar_coleccion():
