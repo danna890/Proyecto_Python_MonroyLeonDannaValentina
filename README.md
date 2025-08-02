@@ -90,8 +90,8 @@ Proyecto_Python_ApellidoNombre/
 │    ├─ eliminar.py
 │   
 │
-├─ modelos/                  # Capa de datos (manejo JSON)
-│    ├─ coleccion.py
+├─ data/                  
+│    ├─ almacenamiento.py
 │  
 │
 ├─ vistas/                   # Menús e interacción con el usuario
