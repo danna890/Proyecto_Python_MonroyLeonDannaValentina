@@ -1,1 +1,28 @@
-[]
+{
+    "libros": [
+    {"titulo": "Cien años de soledad", 
+    "autor": "Gabriel García Márquez", 
+    "genero": "Realismo mágico", 
+    "valoracion": "5"},
+
+    {"titulo": "El principito", 
+    "autor": "Antoine de Saint-Exupéry", 
+    "genero": "Fábula", 
+    "valoracion": "4"},
+
+    {"titulo": "1984", 
+    "autor": "George Orwell", 
+    "genero": "Distopía", 
+    "valoracion": "5"},
+
+    {"titulo": "Don Quijote de la Mancha", 
+    "autor": "Miguel de Cervantes", 
+    "genero": "Clásico", 
+    "valoracion": "5"},
+    
+    {"titulo": "La sombra del viento", 
+    "autor": "Carlos Ruiz Zafón", 
+    "genero": "Misterio", 
+    "valoracion": "4"}
+    ]
+}
